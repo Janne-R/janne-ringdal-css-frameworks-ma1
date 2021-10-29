@@ -18,10 +18,6 @@ main {
   background-color: #e5e5e5;
 }
 
-.container {
-  max-width: 960px;
-}
-
 h1,
 h2 {
   font-family: "open sans", sans-serif;
@@ -65,35 +61,16 @@ p {
   border: none;
 }
 
-.boxes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.col-md {
+  margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  .boxes {
-    display: grid;
-    grid-template-columns: repeat(4, 0fr);
-    column-gap: 10px;
-    justify-content: center;
-  }
+.row {
+  --bs-gutter-y: 1.5rem;
 }
 
-.boxes .boxes__item {
-  background-color: #f4f3ee;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 1em;
-  border-radius: 20px;
-}
-
-.boxes .boxes__item--highlight-border {
-  border: 1px solid #c32c72;
-}
-
-.boxes .boxes__item--highlight-box {
-  background-color: #c32c72;
+.card {
+  height: 18rem;
 }
 
 .footer {
