@@ -8,3 +8,10 @@
   padding: 10px;
   margin: 10px 0;
 }
+
+.container {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
