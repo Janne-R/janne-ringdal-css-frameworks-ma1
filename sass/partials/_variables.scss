@@ -1,0 +1,12 @@
+$font-primary: "archivo", sans-serif;
+$font-headings: "open sans", sans-serif;
+
+$tablet-width: 768px;
+
+$colours: (
+  primary: #c32c72,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}

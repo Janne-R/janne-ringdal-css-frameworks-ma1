@@ -1,0 +1,28 @@
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    column-gap: 10px;
+    justify-content: center;
+  }
+
+  .boxes__item {
+    background-color: #f4f3ee;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1em;
+    @include button-border(20px);
+  }
+
+  .boxes__item--highlight-border {
+    border: 1px solid #c32c72;
+  }
+
+  .boxes__item--highlight-box {
+    background-color: #c32c72;
+  }
+}
