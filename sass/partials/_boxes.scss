@@ -8,4 +8,14 @@
 
 .card {
   height: 18rem;
+  @include button-border(20px);
+  background-color: getColour(fill-color);
+
+  &.card--border {
+    border-color: getColour(primary);
+  }
+
+  &.card--fill {
+    background-color: getColour(primary);
+  }
 }

@@ -71,6 +71,16 @@ p {
 
 .card {
   height: 18rem;
+  border-radius: 20px;
+  background-color: #f4f3ee;
+}
+
+.card.card--border {
+  border-color: #c32c72;
+}
+
+.card.card--fill {
+  background-color: #c32c72;
 }
 
 .footer {
