@@ -1,3 +1,21 @@
+.navbar {
+  background-color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: getColour(logo);
+}
+
 .navbar-light .navbar-nav .nav-link.active {
   color: getColour(primary);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: getColour(text-link);
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border: none;
 }

@@ -5,6 +5,10 @@ $tablet-width: 768px;
 
 $colours: (
   primary: #c32c72,
+  text-link: #8d8d8d,
+  logo: #262626,
+  h1: #463f3a,
+  background-color: #e5e5e5,
 );
 
 @function getColour($colour) {
